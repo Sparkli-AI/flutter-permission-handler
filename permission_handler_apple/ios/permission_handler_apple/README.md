@@ -6,6 +6,9 @@ upstream commit `5c989b1be9abbbb325424ad96e5be4efdc0987c2`. The native sources,
 privacy manifest, Dart API and other platform implementations remain upstream's.
 Odyssey pins the fork to an immutable commit in its workspace dependency override.
 
+[SPRK-1975 tracks removal](https://linear.app/sparkli/issue/SPRK-1975/remove-odysseys-permission-handler-apple-swiftpm-manifest-fork),
+including the upstream reports and acceptance criteria below.
+
 ## Why it exists
 
 Upstream's manifest discovers the consuming app, reads its permission settings

@@ -2,8 +2,7 @@
 
 import PackageDescription
 
-// TODO: Drop this fork after upstream #1544 is fixed; see README.md.
-// Odyssey enables only microphone access in every flavor.
+// TODO(SPRK-1975): Drop Odyssey's microphone-only manifest; see README.md.
 let package = Package(
     name: "permission_handler_apple",
     platforms: [.iOS(.v12)],
